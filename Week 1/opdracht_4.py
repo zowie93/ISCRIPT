@@ -64,9 +64,9 @@ def horse_step(x, y):
 def print_possibilities(pos_1, pos_2, possible):
     # uitprinten van mogelijkheid met formatting
     if possible:
-        print('Het paard kan wel springen van', pos_1, 'naar', pos_2)
+        print('het paard kan springen van', pos_1, 'naar', pos_2)
     else:
-        print('Het paard niet springen van', pos_1, 'naar', pos_2)
+        print('het paard niet springen van', pos_1, 'naar', pos_2)
 
 
 def main():
