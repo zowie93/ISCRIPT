@@ -85,9 +85,9 @@ def main():
     zone = get_zone(afstand)
 
     # outputs voor elke methode
-    print('voetpunt: ', voet_punt)
-    print('afstand: ', afstand, 'zeemijl')
-    print('zone: ', zone)
+    print('voetpunt:', voet_punt)
+    print('afstand:', afstand, 'zeemijl')
+    print('zone:', zone)
 
 
 if __name__ == '__main__':
