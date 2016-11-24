@@ -19,7 +19,8 @@ def convert_cordinates(x_cor, y_cor):
         result = math.atan(y_cor / x_cor)
 
     # uitprinten van het resultaat
-    print(r, "\n", result)
+    print(r)
+    print(result)
 
 
 # main methode
