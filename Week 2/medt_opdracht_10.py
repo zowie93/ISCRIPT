@@ -37,7 +37,7 @@ def main():
     phrases = input_phrases(count)
 
     for phrase in phrases:
-        print("{}palindroom zin".format(['geen ', ''][check_if_palindroom(phrase)]))
+        print("{}palindroomzin".format(['geen ', ''][check_if_palindroom(phrase)]))
 
 
 if __name__ == '__main__':
