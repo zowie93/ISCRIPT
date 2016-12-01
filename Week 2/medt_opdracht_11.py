@@ -106,11 +106,11 @@ def check_strength(passwords):
 # wachtwoord returns voor de sterkste
 def password_strength(strength):
     if strength < 3:
-        return "Zwak"
+        return "zwak"
     elif strength < 5:
-        return "Matig"
+        return "matig"
     else:
-        return "Sterk"
+        return "sterk"
 
 
 def main():
