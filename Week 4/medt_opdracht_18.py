@@ -8,31 +8,28 @@ import random
 
 def check_duplicates(list):
     if len(set(list)) != len(list):
-        return False
-    else:
         return True
+    else:
+        return False
 
 
 def happen_together(number1, number2):
     number_list = []
 
-    for trial in range(number1):
-        rand_numb = random.randrange(number2)
+    for trial in range(number2):
+        rand_numb = random.randrange(number1)
         number_list.append(rand_numb)
 
     return check_duplicates(number_list)
 
 
 def estimate_chance(number1, number2, tests):
-
     duplicates = 0
-
     for trial in range(tests):
-        if happen_together(number1, number1):
+        if happen_together(number1, number2):
             duplicates += 1
 
-    print(duplicates / tests)
-    return duplicates
+    return duplicates / tests
 
 
 def main():
