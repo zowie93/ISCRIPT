@@ -2,6 +2,7 @@
 Opdracht 16 - Game of Life
 
 https://dodona.ugent.be/nl/exercises/511272034/
+Gemaakt met Julia Rijsbergen en Maarten Paauw
 """
 
 
